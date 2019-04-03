@@ -35,6 +35,7 @@ class LoginForm extends Component {
             label="Password"
             placeholder="password"
             onChangeText={this.onPasswordChange}
+            value={this.props.password}
           />
         </CardSection>
 
