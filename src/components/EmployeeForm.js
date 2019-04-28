@@ -6,7 +6,8 @@ import { CardSection, Input } from './common';
 
 class EmployeeForm extends Component {
   render() {
-    <View>
+    return (
+      <View>
         <CardSection>
           <Input
             label="Name"
@@ -42,6 +43,7 @@ class EmployeeForm extends Component {
           </Picker>
         </CardSection>
     </View>
+    );
   }
 }
 
